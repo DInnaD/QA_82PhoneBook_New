@@ -1,0 +1,4 @@
+./gradlew clean test
+./gradlew clean qa
+./gradlew clean qa -Pbrowser=firefox
+./gradlew clean -Dsuite='add_contact' qa1

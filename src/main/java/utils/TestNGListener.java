@@ -1,5 +1,6 @@
 package utils;
 
+import manager.AppManager;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.slf4j.Logger;
@@ -10,7 +11,7 @@ import org.testng.ITestResult;
 
 
 public class TestNGListener implements ITestListener {
-   private WebDriver driver;
+    private WebDriver driver;
     Logger logger = LoggerFactory.getLogger(TestNGListener.class);
 
     @Override
@@ -30,7 +31,8 @@ public class TestNGListener implements ITestListener {
         ITestListener.super.onTestFailure(result);
         logger.error("Test failed --> " + result.getName()
                 + " status -->" + result.getStatus());
-       TakeScreenShot.takeScreenShot((TakesScreenshot) driver);
+       this.driver = ((AppManager) result.getInstance()).getDriver();
+        TakeScreenShot.takeScreenShot((TakesScreenshot) driver);
     }
 
     @Override
