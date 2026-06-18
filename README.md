@@ -26,22 +26,22 @@ Run tests:bash
 Cucumber reports will appear in build/reports/ or configured target folder.
 
 Structuresrc/main/java/com/ait/pages/ → Page Objects (BasePage, LoginPage, ContactPage, etc.)
-src/test/resources/features/ → Gherkin feature files
-src/test/java/com/ait/stepDefinitions/ → Step definition classes
-src/test/java/com/ait/TestRunner.java → Cucumber runner
+src/test/resources/features/ → Gherkin feature files(except)
+src/test/java/com/ait/stepDefinitions/ → Step definition classes(except)
+src/test/java/com/ait/TestRunner.java → Cucumber runner(except)
 
 Planned: Add HTML reports (Cucumber plugin), tags (@smoke
 , @regression
-), Hooks for driver management.
+), Hooks for driver management.(except)
 
-Minor Enhancements:Reports: Add Cucumber HTML reporter plugin in TestRunner @CucumberOptions.
+Minor Enhancements:Reports: Add Cucumber HTML reporter plugin in TestRunner @CucumberOptions.(except)
 Hooks: Create a Hooks class for @Before
 /@After
- (driver init/close, screenshots on failure).
+ (driver init/close, screenshots on failure).(except)
 Tags: Add @smoke
 , @regression
- to features/scenarios.
-GitHub Description: Add a short summary in repo settings.
+ to features/scenarios.(except)
+GitHub Description: Add a short summary in repo settings.(except)
 
 
 
