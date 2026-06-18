@@ -46,7 +46,7 @@ GitHub Description: Add a short summary in repo settings.(except)
 
 
 
-This is a learning project focused on automating web application testing using **Cucumber (BDD)**, **Selenium WebDriver**, and the **Page Object Model (POM)** in Java with Gradle.
+This is a learning project focused on automating web application testing using /* **Cucumber (BDD)** */, **Selenium WebDriver**, and the **Page Object Model (POM)** in Java with Gradle.
 
 https://rahuldkjain.github.io/gh-profile-readme-generator/
 https://github.com/kefranabg/readme-md-generator/blob/master/CONTRIBUTING.md
