@@ -1,7 +1,4 @@
-# QA82_FirstCucumber – My First Cucumber + Selenium Project
-
-
-# QA82_FirstCucumber – My First BDD Automation Framework
+# QA_82PhoneBook_New – BDD Automation Framework
 
 A learning project implementing **Behavior-Driven Development (BDD)** automation tests for the PhoneBook web application (https://contacts-app.tobbymarshall815.vercel.app/) using **Cucumber**, **Selenium WebDriver**, and **Page Object Model (POM)** in Java with Gradle.
 
@@ -12,7 +9,7 @@ A learning project implementing **Behavior-Driven Development (BDD)** automation
 
 ## Technologies
 - Java 11+(21.x)
-- Cucumber 7.x
+- Cucumber 7.x(except)
 - Selenium WebDriver 4.x
 - Gradle 8.x
 - WebDriverManager (recommended)
