@@ -4,7 +4,7 @@ A learning project implementing **Behavior-Driven Development (BDD)** automation
 
 ## Project Description
 - Automated scenarios: login, navigation, adding/editing contacts.
-- Written in Gherkin for readability and collaboration.
+- /*Written in Gherkin for readability and collaboration.*/
 - Uses clean POM for maintainable, reusable code.
 
 ## Technologies
